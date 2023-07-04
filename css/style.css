@@ -1,0 +1,100 @@
+/******* Footer Navigation *******/
+.container{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.container  > img{
+    max-width: 30px;
+    margin-right: auto;
+}
+
+.container > div {    
+    text-align: center;
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 14px;
+}
+
+.container > div#Home{
+    border-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container > div#CallUs {
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/********  Body  *******/
+/********  Home  *******/
+.header{
+    text-align: center;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.image{
+    flex: 60%;
+    border: 2px solid black;
+    max-height: none;
+}
+
+.image > img{
+    max-width: 100%;
+}
+
+.image > p{
+    text-align: center;
+}
+
+.customer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.customer-image{
+    max-width: 50px;
+}
+
+.customer-image > img{
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.customer-detail > p{
+    background-color: aqua;
+    margin: 2px;
+}
+
+.form{
+    flex: 40%;
+    border: 2px solid black;
+}
+
+#store{
+    display: flex;
+    max-width: 55%;
+    background-color: aqua;
+}
+
+/********  Our Package  ********/
+#OurPackages{
+    text-align: center;
+    padding: 50px;
+    background-color: aqua;
+}
+
+#OurPackage-detail{
+}
