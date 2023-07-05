@@ -7,11 +7,17 @@
 <body>
     <nav class="container">
         <img src="img/logo.png" alt="">
-        <div id="Home">Home</div>
-        <div id="Package">Our Package</div>
-        <div id="CallUs">Call Us</div>
+        <a href="#home-head">
+            <button id="Home">Home</button>
+        </a>
+        <a href="#OurPackages">
+            <button id="Package">Our Package</button>
+        </a>
+        <a href="#CallUs">
+            <button id="Call">Call Us</button> 
+        </a>
     </nav>
-    <div class="header">
+    <div class="header" id="home-head">
         <h2 class="title">Top Rated E-Groceries Shop in Indonesia</h2>
         <p>Every Day with best ingredients</p>
     </div>
@@ -35,9 +41,8 @@
                 <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
             </div>
             </br>
-
             <div>
-                <form>
+                <form class="body-form">
                     <label for="name">Your Name:</label><br>
                     <input type="text" id="name" name="name" placeholder="First and last name"><br><br>
                     <label for="email">Email Address:</label><br>
@@ -45,7 +50,7 @@
                     <label for="phone">Phone Number:</label><br>
                     <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx"><br><br>
                     <label for="message">Message:</label><br>
-                    <input type="text" id="phone" name="phone" placeholder="Type your message"><br><br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Type your massage..."></textarea><br><br>
                     <!-- <label for="option">What are you interested in?</label><br>
                     <select name="option" id="option">
                         <option value="Fruits">Fruits</option>
@@ -56,11 +61,11 @@
                         <option value="Snacks">Snacks</option>
                     </select><br><br> -->
                     <input type="submit" value="Send">
-                </form>
+                </form><br><br>
             </div>
         </div>
     </section>
-    <section id="store">
+    <section id="desk">
         <div class="store-detail">
             <p>Toko kami selalu menyediakan berbagai macam kebutuhan-kebutuhan pangan anda, tentunya dengan kualitas yang tidak dimiliki ditempat lain seperti</p>
             <div class="product-advantages1">
@@ -84,24 +89,66 @@
         <h2>Our Package</h2>
     </section>
     <section id="OurPackages-detail">
-        <div>
-            1
+        <div id="OurPackages-detail-first">
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
         </div>
-        <div>
-            2
+        <div id="OurPackages-detail-first">
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
+            <div class="ourpackage-image">
+                <img src="" alt="">
+            </div>
+            <div class="customer-detail">
+                <h5>Asri Husnul Rosadi</h5>
+                <p>Pelajar/Mahasiswa, 19</p>
+            </div>
         </div>
-        <div>
-            3
+    </section>
+    <section id="CallUs">
+        <div id="CallUs-head">
+            <h2>Your Closing Argument Headline</h2>
+            <p>Suspendise egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justoquis, cconvallis incidunt risus. Phasellus fringilla odio vel erat fringhilla,</p>
         </div>
-        <div>
-            4
-        </div>
-        <div>
-            5
-        </div>
-        <div>
-            6
+        <div id="CallUs-foot">
+            <a href="https://www.instagram.com/septyanagstn/?hl=id">
+                <button id="foot-call"><b>Call to Action</b></button>
+            </a>
         </div>
     </section>
 </body>
+<footer>
+    <img src="" alt="">
+</footer>
 </html>
